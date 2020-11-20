@@ -1,0 +1,23 @@
+ /********************************\
+**    Nome: Inflação            **
+**    Autor: Roberto Barreto    **
+**    Data: 30/10/2020          **
+\********************************/
+
+var:
+
+    preco,precoF : real
+
+Algoritmo:
+
+    ler(preco)
+
+    se preco>=100
+        precoF<-preco+(preco*0.2)
+    senao
+        precoF<-preco+(preco*0.1)
+    fimSe
+
+    escrever(precoF)
+
+fimAlgoritmo

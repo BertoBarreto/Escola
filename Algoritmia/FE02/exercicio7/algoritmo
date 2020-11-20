@@ -1,0 +1,25 @@
+/********************************\
+**    Nome: Positivo/Negativo   **
+**    Autor: Roberto Barreto    **
+**    Data: 30/10/2020          **
+\********************************/
+
+var:
+
+    num:inteiro
+
+Algoritmo:
+
+    ler(num)
+    
+    se num==0
+        escrever(erro)
+    senao
+        se num>0 entao
+            escrever(Positivo)
+        sena
+            escrever(Negativo)
+        fimSe
+    fimSe
+
+fimAlgoritmo

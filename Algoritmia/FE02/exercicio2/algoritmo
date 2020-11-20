@@ -1,0 +1,17 @@
+/********************************\
+**    Nome: Numero 33           **
+**    Autor: Roberto Barreto    **
+**    Data: 27/10/2020          **
+\********************************/
+var:
+    num:inteiro
+Algorimo:
+    ler(num)
+
+    se num!=33 entao
+        escrever("O numero e diferente de  33")
+    senao
+        escrever("O numero e 33")
+    fimSe
+    
+fimAlgoritmo

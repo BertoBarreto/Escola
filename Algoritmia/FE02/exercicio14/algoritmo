@@ -1,0 +1,36 @@
+/********************************\
+**    Nome: Nota                **
+**    Autor: Roberto Barreto    **
+**    Data: 01/10/2020          **
+\********************************/
+
+var:
+
+    t1,t2,media,notaF:real
+
+Algritmo:
+
+    ler(t1,t2)
+
+    se t1>=85 e t2>=9 entao
+        media<-(t1+t2)/2
+        se media >= 10 entao
+            se media >= 17
+                ler(notaF)
+                se notaF!=0
+                    escrever(notaF)
+                senao
+                    escrever(media)
+                fimSe
+            senao
+                escrever(media)
+            fimSe
+        senao
+            escrever(nao possui media suficiente)
+        fimSe
+    senao
+        escrever(nao possui notas minimas)
+    fimSe
+
+
+fimSe

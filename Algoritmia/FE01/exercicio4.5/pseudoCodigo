@@ -1,0 +1,17 @@
+/********************************\
+**    Nome: Area de triângulo   **
+**    Autor: Roberto Barreto    **
+**    Data: 24/10/2020          **
+\********************************/
+
+var:
+    base,altura,area : real
+algoritmo:
+    ler(base)
+    ler(altura)
+
+    area<=(base*altura)/2
+
+    escrever(area)
+    
+fimAlgoritmo

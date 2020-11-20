@@ -1,0 +1,19 @@
+ /********************************\
+**    Nome: Idade dar Sangue    **
+**    Autor: Roberto Barreto    **
+**    Data: 30/10/2020          **
+\********************************/
+
+var:
+
+    idade:inteiro
+
+Algoritmo:
+
+    se idade>=18 e idade<=67
+        escrever(Sim)
+    senao
+        escrever(Nao)
+    fimSe
+    
+fimAlgoritmo

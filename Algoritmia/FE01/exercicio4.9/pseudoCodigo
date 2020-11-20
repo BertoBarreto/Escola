@@ -1,0 +1,16 @@
+/***********************************\
+**    Nome: euros to dolares       **
+**    Autor: Roberto Barreto       **
+**    Data: 24/10/2020             **
+\***********************************/
+
+var:
+    euros,dolares : real
+algoritmo:
+    ler(euros)
+
+    dolares<=euros*1.19
+
+    escrever(dolares)
+    
+fimAlgoritmo

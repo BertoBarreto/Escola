@@ -1,0 +1,21 @@
+/********************************\
+**    Nome: Salario             **
+**    Autor: Roberto Barreto    **
+**    Data: 01/10/2020          **
+\********************************/
+var:
+
+    salario,irs,salarioMin,salarioF : real
+
+Algoritmo:
+
+    ler(salario)
+
+    if(salario<=salarioMin)
+        salarioF<-salario
+    else
+        salarioF<-salario-(salario*irs)
+
+    escrever(salarioF)
+
+fimAlgoritmo

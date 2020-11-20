@@ -1,0 +1,17 @@
+/********************************\
+**    Nome: Area do circulo     **
+**    Autor: Roberto Barreto    **
+**    Data: 24/10/2020          **
+\********************************/
+
+var:
+    r,area : real
+    pi<=3.14159 : real
+algoritmo:
+    ler(raio)
+
+    area<=pi*(r*r)
+
+    escrever(area)
+    
+fimAlgoritmo

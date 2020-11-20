@@ -1,0 +1,16 @@
+/***********************************\
+**    Nome: fahrenheit to celcius  **
+**    Autor: Roberto Barreto       **
+**    Data: 24/10/2020             **
+\***********************************/
+
+var:
+    grausF,grausC : real
+algoritmo:
+    ler(grausF)
+
+    grausC<=(grausF-32)*5/9
+
+    escrever(grausC)
+    
+fimAlgoritmo

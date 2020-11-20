@@ -1,0 +1,51 @@
+/************************************************\
+**    Nome: Trabalho de grupo ex1               **
+**    Autor: Vicent Rebena - Roberto Barreto    **
+**    Data: 1/11/2020                           **
+\************************************************/
+
+Var:
+
+    p1,p2,p3,p4,p5,_p1,_p2,_p3,_p4,_p5,total : inteiro
+    media : real
+
+Algoritmo:
+
+    ler(p1,p2,p3,p4,p5)
+
+    se p1>4
+        _p1<p1
+    senao
+        _p1<-0
+    fimSe
+
+    se p2>4
+        _p2<-p2
+    senao
+        _p2<-0
+    fimSe
+
+    se p3>4
+        _p3<-p3
+    senao
+        _p3<-0
+    fimSe
+    
+    se p4>4
+        _p4<-p4
+    senao
+        _p4<-0
+    fimSe
+    
+    se p5>4
+        _p5<-p5
+    senao
+        _p5<-0
+    fimSe
+
+    media<-(p1+p2+p3+p4+p5)/5;
+    total<-(_p1+_p2+_p3+_p4+_p5)
+
+    escrever(media,total)
+    
+fimAlgoritmo

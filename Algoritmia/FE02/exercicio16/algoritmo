@@ -1,0 +1,26 @@
+/********************************\
+**    Nome: Futebol             **
+**    Autor: Roberto Barreto    **
+**    Data: 01/10/2020          **
+\********************************/
+
+var:
+
+    idade : inteiro
+
+Algoritmo:
+
+    ler(idade)
+
+    se idade>=11 e idade<=15
+        se idade=11 e idade = 12
+            escrever(oferta)
+        
+        escrever(Juvenil)
+    senao se idade>=16 e idade <=20
+        escrever(Junior)
+    senao se idade>=21 e idade<=25
+        escrever(Profissional)
+    fimSe
+
+fimAlgoritmo

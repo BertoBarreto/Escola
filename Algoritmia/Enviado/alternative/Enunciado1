@@ -1,0 +1,33 @@
+Var:
+    notaTeste
+    nota1
+    nota2
+    nota3
+    notaFinal=0
+    notaP=0
+
+Codigo:
+
+    ler(notaTeste)
+    ler(nota1)
+    ler(nota2)
+    ler(nota3)
+
+    notaP => (2*nota1+4*nota2+4*nota3)/10
+    notaFinal => (notaTeste + notaP)/2
+
+    se notaTeste < 8 entao
+        escrever("Reprovado")
+    senao
+        se NotaP < 8 entao
+            escrever("Reprovado")
+        senao
+            se NotaF < 10 entao
+                escrever("Reprovado")
+            senao
+                escrever("Aprovado com", notaFinal)
+            fimse
+        fimse
+    fimse
+
+fimalgoritmo

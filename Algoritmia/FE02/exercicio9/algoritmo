@@ -1,0 +1,20 @@
+ /********************************\
+**    Nome: Maior/Menor         **
+**    Autor: Roberto Barreto    **
+**    Data: 30/10/2020          **
+\********************************/
+
+var:
+
+    valor1,valor2:real
+
+Algoritmo:
+
+    ler(valor1,valor2)
+
+    se valor1>valor2 entao
+        escrever(valor1>valor2)
+    senao
+        escrever(valor1<valor2)
+
+fimAlgoritmo

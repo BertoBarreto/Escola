@@ -1,0 +1,30 @@
+/********************************\
+**    Nome: Calculo de KW       **
+**    Autor: Roberto Barreto    **
+**    Data: 01/10/2020          **
+\********************************/
+var:
+
+    tipo : inteiro
+    Kw,total,iva : real
+
+Algoritmo:
+
+    ler(tipo,Kw)
+
+    selecionar tipo
+        caso 1:
+            total<-0.1865*Kw
+        caso 2:
+            total<-0.1875*Kw
+        caso 3:
+            total<-0.1754*Kw
+        caso 4:
+            total<-0.1592*Kw
+        caso 5:
+            total<-0.1311*Kw
+        default(erro)
+
+    escrever(total)
+
+fimSe

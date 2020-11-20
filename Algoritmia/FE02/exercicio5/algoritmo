@@ -1,0 +1,55 @@
+/********************************\
+**    Nome: Moedas Troco        **
+**    Autor: Roberto Barreto    **
+**    Data: 27/10/2020          **
+\********************************/
+
+var:
+    valor:double
+    result:inteiro
+Algoritmo:
+
+    ler(valor);
+
+    result <- valor / 2;
+    se result!=0
+        escrever(result)
+    valor <- valor%2
+
+    
+    result <- valor / 1;
+    se result!=0
+        escrever(result)
+    valor <- valor%1
+    
+    result <- valor / 0.5;
+    se result!=0
+        escrever(result)
+    valor <- valor%0.5
+
+    result <- valor / 0.2;
+    se result!=0
+        escrever(result)
+    valor <- valor%0.2
+
+    result <- valor / 0.1;
+    se result!=0
+        escrever(result)
+    valor <- valor%0.1
+
+    result <- valor / 0.05;
+    se result!=0
+        escrever(result)
+    valor <- valor%0.05
+    
+    result <- valor / 0.02;
+    se result!=0
+        escrever(result)
+    valor <- valor%0.05
+    
+    result <- valor / 0.01;
+    se result!=0
+        escrever(result)
+    valor <- valor%0.05
+
+fimAlgoritmo

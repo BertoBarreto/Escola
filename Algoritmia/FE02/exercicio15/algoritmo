@@ -1,0 +1,20 @@
+/********************************\
+**    Nome: Maquina             **
+**    Autor: Roberto Barreto    **
+**    Data: 01/10/2020          **
+\********************************/
+
+Var:
+
+    letra : carater
+
+Algoritmo:
+
+    selecionar letra:
+        caso 'L': escrever(Ligar)
+        caso 'D': escrever(Desligar)
+        caso 'F': escrever(Furar)
+        defeito: escrever(Erro)
+    fimSelecionar
+
+fimAlgoritmo

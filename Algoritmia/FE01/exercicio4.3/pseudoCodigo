@@ -1,0 +1,17 @@
+/********************************\
+**    Nome: Preco com desconto  **
+**    Autor: Roberto Barreto    **
+**    Data: 23/10/2020          **
+\********************************/
+
+var:
+    preco,precoFinal : real
+algoritmo:
+    escrever("introduza o preco da peca: ")
+    ler(preco)
+
+    precoFinal<=preco-(preco*0.3)
+
+    escrever(precoFinal)
+    
+fimAlgoritmo

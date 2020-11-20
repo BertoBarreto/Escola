@@ -1,0 +1,20 @@
+/********************************\
+**    Nome: Idade + 30          **
+**    Autor: Roberto Barreto    **
+**    Data: 30/10/2020          **
+\********************************/
+var:
+
+l1,l2,area:real
+
+Algoritmo:
+
+    area<-l1*l2
+    ler(l1,l2);
+    se l1==l2 entao
+        escrever(quadrado,area)
+    senao
+        escrever(retangulo,area)
+    fimSe
+
+fimAlgoritmo

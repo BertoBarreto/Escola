@@ -1,0 +1,16 @@
+/*******************************************\
+**    Nome: calculo aumentos com imposto   **
+**    Autor: Roberto Barreto               **
+**    Data: 24/10/2020                     **
+\*******************************************/
+
+var:
+    salarioB,salarioA,salarioF : real
+algoritmo:
+    ler(salarioB)
+    salarioA<=salarioB+(0.05*salarioB)
+    salarioF<=salarioA-(salario*0.07)
+
+    escrever(salario,salarioA,salarioF)
+    
+fimAlgoritmo

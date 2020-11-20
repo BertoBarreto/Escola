@@ -1,0 +1,26 @@
+/********************************\
+**    Nome: Carta de condução   **
+**    Autor: Roberto Barreto    **
+**    Data: 20/10/2020          **
+\********************************/
+
+
+var:
+    int anoNascimento
+    int idade
+    int anosFalta
+
+algoritmo:
+    escrever("introduza o seu ano de nascimento: ")
+    ler(anoNascimento)
+
+    idade<=2020-anoNascimento
+
+    se idade >= 18
+        escrever("pode tirar a carta")
+    senao
+        anosFalta<=18-idade
+        escrever("Nao pode tirar a carta, faltam &anosFalta para poder")
+    endif
+fimAlgoritmo
+

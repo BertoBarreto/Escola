@@ -1,0 +1,16 @@
+/***********************************\
+**    Nome: calculo aumentos       **
+**    Autor: Roberto Barreto       **
+**    Data: 24/10/2020             **
+\***********************************/
+
+var:
+    salario,salarioF : real
+algoritmo:
+    ler(salario)
+
+    salarioF<=salario+(0.25*salario)
+
+    escrever(salario,salarioF)
+    
+fimAlgoritmo

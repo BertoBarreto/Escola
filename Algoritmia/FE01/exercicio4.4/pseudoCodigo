@@ -1,0 +1,20 @@
+/********************************\
+**    Nome: Media de 3 notas    **
+**    Autor: Roberto Barreto    **
+**    Data: 23/10/2020          **
+\********************************/
+
+var:
+    nota1,nota2,nota3 : inteiro
+    peso1,peso2,peso3,media : real
+algoritmo:
+    ler(nota1)
+    ler(nota2)
+    ler(nota3)
+
+    media<=(nota1*peso1)+(nota2*peso2)+(nota3*+peso3)
+
+    escrever(media)
+
+    
+fimAlgoritmo

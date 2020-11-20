@@ -1,0 +1,27 @@
+ /********************************\
+**    Nome: Maior de 3          **
+**    Autor: Roberto Barreto    **
+**    Data: 30/10/2020          **
+\********************************/
+
+var:
+
+    num1,num2,num3:inteiro
+
+Algoritmo:
+
+    ler(num1,num2,num3)
+
+    se num1>=num2 e num1>=num3 
+        escrever(num1)
+    fimSe
+
+    se num2>=num1 e num2>=num3 
+        escrever(num2)
+    fimSe
+
+    se num3>=num2 e num3>=num1 
+        escrever(num3)
+    fimSe
+
+fimAlgoritmo

@@ -1,0 +1,20 @@
+/********************************\
+**    Nome: tempo real em seg   **
+**    Autor: Roberto Barreto    **
+**    Data: 24/10/2020          **
+\********************************/
+
+var:
+    horas,minutos,segundos,total,horasToSec,minutosToSec : inteiro
+algoritmo:
+    ler(horas)
+    ler(minutos)
+    ler(segundos)
+
+    horasToSec<=horas*3600
+    minutosToSec<=minutos*60
+    total<=horasToSec+minutosToSec+segundos
+
+    escrever(horas,minutos,segundos,total)
+    
+fimAlgoritmo

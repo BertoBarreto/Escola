@@ -1,0 +1,18 @@
+/***********************************\
+**    Nome: Troca de vars          **
+**    Autor: Roberto Barreto       **
+**    Data: 24/10/2020             **
+\***********************************/
+
+var:
+    var1,_var1,var2,_var2 : inteiro
+algoritmo:
+    ler(var1)
+    ler(var2)
+
+    _var1=var2
+    _var2=var1
+
+    escrever(_var1,_var2)
+    
+fimAlgoritmo

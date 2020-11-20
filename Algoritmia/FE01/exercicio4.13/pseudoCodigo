@@ -1,0 +1,17 @@
+/***********************************\
+**    Nome: calculo hipotenusa     **
+**    Autor: Roberto Barreto       **
+**    Data: 24/10/2020             **
+\***********************************/
+
+var:
+    c1,c2,h : inteiro
+algoritmo:
+    ler(c1)
+    ler(c2)
+
+    h<=sqrt((c1*c1)+(c2*c2))
+
+    escrever(h)
+    
+fimAlgoritmo

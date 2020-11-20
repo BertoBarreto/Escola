@@ -1,0 +1,24 @@
+/********************************\
+**    Nome: Media Disciplinas   **
+**    Autor: Roberto Barreto    **
+**    Data: 23/10/2020          **
+\********************************/
+
+var:
+    notaPt, notaIng, notaMat, media : real
+
+algoritmo:
+    escrever("Introduza a sua nota de Portugues: ")
+    ler(notaPt)
+
+    escrever("Introduza a sua nota de Ingles: ")
+    ler(notaIng)
+
+    escrever("Introduza a sua nota de Matematica: ")
+    ler(notaMat)
+
+    media<=(notaPt+notaIng+notaMat)/3
+
+    escrever("A sua media e: 'media'")
+
+fimAlgoritmo

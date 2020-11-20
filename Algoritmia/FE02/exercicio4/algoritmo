@@ -1,0 +1,22 @@
+/********************************\
+**    Nome: Divisao sem 0       **
+**    Autor: Roberto Barreto    **
+**    Data: 27/10/2020          **
+\********************************/
+var:
+    num1,num2 : inteiro
+    resultado : real
+
+Algoritmo:
+
+    ler(num1,num2)
+    se num2!=0
+        resultado<-num1/num2
+        escrever(resultado)
+    senao
+        escrever(0 nao pode ser dividido)
+    fimSe
+
+
+
+fimAlgoritmo

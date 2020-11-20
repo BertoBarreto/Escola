@@ -1,0 +1,22 @@
+/********************************\
+**    Nome: Compras             **
+**    Autor: Roberto Barreto    **
+**    Data: 01/10/2020          **
+\********************************/
+var:
+
+    compras : real
+
+Algoritmo:
+
+    ler(compras)
+
+    se compras<=5000
+        escrever(Normal)
+    senao se compras <=20000
+        escrever(Profissional)
+    senao 
+        escrever(Empresarial)
+
+
+fimAlgoritmo

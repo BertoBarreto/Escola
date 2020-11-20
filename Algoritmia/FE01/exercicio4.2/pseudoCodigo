@@ -1,0 +1,21 @@
+/********************************\
+**    Nome: Antecessor Sucessor **
+**    Autor: Roberto Barreto    **
+**    Data: 23/10/2020          **
+\********************************/
+
+var:
+
+    num,antNum,dpNum : real
+
+Algoritmo:
+    escrever("introduza um numero: ");
+    ler(num)
+
+    antNum<=num - 1
+    dpNum<=num + 1
+
+    escrever("o seu Antecessor e antNum e o seu Sucessor e dpNum")
+    
+fimAlgoritmo
+

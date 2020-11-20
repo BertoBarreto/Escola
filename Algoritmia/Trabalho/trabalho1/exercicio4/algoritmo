@@ -1,0 +1,42 @@
+/************************************************\
+**    Nome: Trabalho de grupo ex4               **
+**    Autor: Vicent Rebena - Roberto Barreto    **
+**    Data: 1/11/2020                           **
+\************************************************/
+
+var :   comp, desconto : inteiro
+        gen : caracter
+
+Algoritmo : 
+
+    ler(comp, gen) 
+
+        selecionar gen
+
+            Caso 'f' 
+            Caso 'F' : 
+    
+                se comp >=6  e comp<10
+                    desconto <- 10
+    
+                senao se comp >=15 e comp < 18
+                    desconto <- 8
+            
+                senao se comp >=18 e comp < 25
+                    desconto <- 7
+                fim_se
+
+            Caso 'm' 
+            Caso 'M' : 
+
+                se comp >= 10 e comp <15
+                    desconto <- 9
+
+                senao se comp >=18 e comp<25
+                    desconto <- 7
+                fim_se
+
+            default : desconto <-5
+        fim_selecionar
+
+    escrever(desconto) 
