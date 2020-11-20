@@ -10,7 +10,7 @@ int main(){
    prod=n1*n2;
    sprintf(p,"%d",prod);
    sprintf(p_,"%d",prod);
-
+   
    strcpy(p_,p);
    strcpy(p_,strrev(p));
 
