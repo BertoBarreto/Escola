@@ -1,0 +1,94 @@
+teste1:10
+teste2:10
+trabalho1:10
+trabalho2:10
+trabalho3:10
+trabalho4:10
+Nota Final:10
+*************************************
+**    Nome: Nota Final       **
+**    Autor: Roberto Barreto       **
+**    Data: 24/10/2020             **
+*************************************
+teste1:10
+teste2:10
+trabalho1:1
+trabalho2:10
+trabalho3:10
+trabalho4:10
+Nota Final:9
+*************************************
+**    Nome: Nota Final         **
+**    Autor: Roberto Barreto       **
+**    Data: 24/10/2020             **
+*************************************
+teste1:20
+teste2:20
+trabalho1:20
+trabalho2:20
+trabalho3:20
+trabalho4:20
+Nota Final:20
+*************************************
+**    Nome: Nota Final             **
+**    Autor: Roberto Barreto       **
+**    Data: 24/10/2020             **
+*************************************
+teste1:10
+teste2:14
+trabalho1:15
+trabalho2:1
+trabalho3:13
+trabalho4:14
+Nota Final:11
+*************************************
+**    Nome: Nota Final             **
+**    Autor: Roberto Barreto       **
+**    Data: 24/10/2020             **
+*************************************
+teste1:10
+teste2:13
+trabalho1:14
+trabalho2:15
+trabalho3:16
+trabalho4:16
+Nota Final:12
+
+*************************************
+**    Nome: Nota Final             **
+**    Autor: Roberto Barreto       **
+**    Data: 24/10/2020             **
+*************************************
+teste1:191
+teste2:81
+trabalho1:17
+trabalho2:17
+trabalho3:17
+trabalho4:17
+Nota Final:100
+
+*************************************
+**    Nome: Nota Final             **
+**    Autor: Roberto Barreto       **
+**    Data: 26/10/2020             **
+*************************************
+teste1:10
+teste2:10
+trabalho1:10
+trabalho2:1
+trabalho3:100
+trabalho4:10
+Nota Final:16
+
+*************************************
+**    Nome: Nota Final             **
+**    Autor: Roberto Barreto       **
+**    Data: 26/10/2020             **
+*************************************
+teste1:20
+teste2:191
+trabalho1:1
+trabalho2:1
+trabalho3:1
+trabalho4:1
+Nota Final:74
