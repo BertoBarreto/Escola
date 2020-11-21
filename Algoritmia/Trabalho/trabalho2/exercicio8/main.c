@@ -34,9 +34,10 @@ int main(int argc, char const *argv[])
         //partimos sempre do principio q o numero é primo, assim só quando se verifica que não é primo é que nao incrementamos
         if(primo==1){
             contPrimos++;
+            soma+=num;
         }
         
-        soma+=num;
+        
 
         i++;
 
@@ -44,6 +45,7 @@ int main(int argc, char const *argv[])
     printf("\nNumero gerado: %d",num);
     media=(float)soma/(float)contador;
     printf("\nMedia: %.2f",media);
+    printf("1n soma: %d",soma);
     printf("\nNumeros primos: %d",contPrimos);
 
     return 0;
