@@ -26,8 +26,8 @@ Algoritmo:
 
         for inteiro:a=2,a<=num-1,a<-a+1
             se(num%a==0)
-                primo=0;
-                sair;
+                primo=0
+                sair
             }
         fimFor
 

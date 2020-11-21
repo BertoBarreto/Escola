@@ -27,6 +27,8 @@ Algoritmo
             
             caso M: contadorM<-contadorM+1
                 sair
+            default: escrever(erro)
+            
         fimEscolher
 
         ler(idade)
@@ -45,8 +47,8 @@ Algoritmo
     percentagemF<-contadorF/contador
     percentagemM<-contadorM/contador
 
-    percentagemF=percentagemF*100
-    percentagemM=percentagemM*100
+    percentagemF<-percentagemF*100
+    percentagemM<-percentagemM*100
 
     escrever(contador)
     escrever(percentagemF)

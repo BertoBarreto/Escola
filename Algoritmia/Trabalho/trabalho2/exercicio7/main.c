@@ -23,6 +23,8 @@ int main(int argc, char const *argv[])
                     break;
             case 'M':   contadorM++;
                     break;
+            default: escrever("Genero invalido");
+                    break;
         }
 
         printf("Idade: ");scanf("%d",&idade);
