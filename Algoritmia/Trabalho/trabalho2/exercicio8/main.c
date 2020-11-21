@@ -36,8 +36,6 @@ int main(int argc, char const *argv[])
             contPrimos++;
             soma+=num;
         }
-        
-        
 
         i++;
 
@@ -45,7 +43,7 @@ int main(int argc, char const *argv[])
     printf("\nNumero gerado: %d",num);
     media=(float)soma/(float)contador;
     printf("\nMedia: %.2f",media);
-    printf("1n soma: %d",soma);
+    printf("\nSoma: %d",soma);
     printf("\nNumeros primos: %d",contPrimos);
 
     return 0;
