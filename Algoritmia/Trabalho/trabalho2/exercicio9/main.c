@@ -1,3 +1,9 @@
+/************************************************\
+**    Nome: Trabalho de grupo 2                 **
+**    Autor: Vicent Rebena - Roberto Barreto    **
+**    Data: 20/11/2020                          **
+\************************************************/
+
 #include <stdio.h>
 #include <string.h>
 

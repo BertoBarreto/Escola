@@ -1,3 +1,9 @@
+/************************************************\
+**    Nome: Trabalho de grupo 2                 **
+**    Autor: Vicent Rebena - Roberto Barreto    **
+**    Data: 20/11/2020                          **
+\************************************************/
+
 #include<stdio.h>
 #include <stdlib.h> 
 #include <ctype.h>
@@ -35,7 +41,7 @@ int main(int argc, char const *argv[])
         i++;
 
     }    
-    printf("\ni: %d",i);
+    printf("\nNumero gerado: %d",num);
     media=(float)soma/(float)contador;
     printf("\nMedia: %.2f",media);
     printf("\nNumeros primos: %d",contPrimos);
