@@ -1,0 +1,36 @@
+/************************************************\
+**    Nome: Trabalho de grupo 2                 **
+**    Autor: Vicent Rebena - Roberto Barreto    **
+**    Data: 20/11/2020                          **
+\************************************************/
+
+variaveis:
+
+    p[50],p_[50]:caracter
+    verifica,n1,n2,prod,melhorCap,i:inteiros
+
+Algoritmo:
+
+    melhorCap<-0
+    i<-0
+
+    ler(n1,n2)
+
+    prod<-n1*n2
+
+    for(i<-1,i<=prod+1,i++)
+        p<-i
+        p_<-i
+
+        inverter(p_)
+
+        verifica<-comparação(p,p_)
+
+        se verifica==0
+            melhorCap<-i
+        fimSe
+    fimFor
+
+    escrever(melhorCap)
+    
+fimAlgoritmo

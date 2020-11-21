@@ -1,0 +1,48 @@
+/************************************************\
+**    Nome: Trabalho de grupo 2                 **
+**    Autor: Vicent Rebena - Roberto Barreto    **
+**    Data: 20/11/2020                          **
+\************************************************/
+
+variaveis:
+    i,Min,Max,contador,contPrimos,soma:inteiros
+    media:real
+    escolha:caracter
+
+Algoritmo:
+    i<-0
+    Min<-0
+    Max<-100
+    contador<-70
+    contPrimos<-0
+    soma<-0
+    media<-0
+
+    alterarSementeRandomicos(hora)
+
+    enquanto i<contador
+        inteiro : primo<-1
+        num<- numeroRandomicos(Max,Min)
+
+        for inteiro:a=2,a<=num-1,a<-a+1
+            se(num%a==0)
+                primo=0;
+                sair;
+            }
+        fimFor
+
+        se(primo==1)
+            contPrimos<-contPrimos+1
+        fimSe
+
+        soma <- soma + num
+
+        i<-i+1
+
+    fimEnquanto
+    media<-soma/contador
+    escrever(num)
+    escrever(media)
+    escrever(contPrimos)
+
+fimAlgoritmo

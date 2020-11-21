@@ -1,0 +1,22 @@
+/************************************************\
+**    Nome: Trabalho de grupo 2                 **
+**    Autor: Vicent Rebena - Roberto Barreto    **
+**    Data: 15/11/2020                          **
+\************************************************/
+
+variaveis:
+    num,contador,resultado:inteiros
+
+Algoritmo:
+    contador<-1
+    resultado<-0
+    ler(num)
+
+    enquanto contador<=num fazer
+        resultado <- resultado + contador
+        contador<-contado+1
+    fimEnquanto
+
+    escrever(resultado)
+    
+fimAlgoritmo

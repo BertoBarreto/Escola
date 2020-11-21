@@ -1,0 +1,31 @@
+/************************************************\
+**    Nome: Trabalho de grupo 2                 **
+**    Autor: Vicent Rebena - Roberto Barreto    **
+**    Data: 15/11/2020                          **
+\************************************************/
+
+variaveis:
+    idade,limiteInf,limiteSUp,contador,contadorP:inteiros
+    escoha:caracter
+
+Algoritmo
+    ler(idade)
+
+    enquanto 1 fazer
+        se(idade < 0)
+            escrever(erro)
+        fimSe
+
+        se((idade>=limiteInf) e (idade<limiteSUp))
+            contadorP<-contadorP+1
+        fimSe
+
+        contador<-contador+1
+
+        ler(escoha)
+            se escolha!='S'
+                sairEnquanto
+            }
+    fimEnquanto
+
+    escrever(contadorP)
