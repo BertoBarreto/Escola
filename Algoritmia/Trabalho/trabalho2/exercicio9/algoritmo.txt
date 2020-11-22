@@ -17,20 +17,25 @@ Algoritmo:
     ler(n1,n2)
 
     prod<-n1*n2
-
-    for(i<-1,i<=prod+1,i++)
-        p<-i
-        p_<-i
-
-        inverter(p_)
-
-        verifica<-comparação(p,p_)
-
-        se verifica==0
-            melhorCap<-i
-        fimSe
-    fimFor
-
-    escrever(melhorCap)
     
+    se n1>=100 e n2 >=100
+
+        for(i<-1,i<=prod+1,i++)
+            p<-i
+            p_<-i
+
+            inverter(p_)
+
+            verifica<-comparação(p,p_)
+
+            se verifica==0
+                melhorCap<-i
+            fimSe
+        fimFor
+
+        escrever(melhorCap)
+    senao
+        escrever(erro)
+    fimSe
+
 fimAlgoritmo
