@@ -11,10 +11,14 @@ void main(){
     int capicuas[500];
     int Ncapicuas[500];
 
-    
+    for(int i=0;i<500;i++){
+        nums[i]=0;
+        capicuas[i]=0;
+        Ncapicuas[i]=0;
+    }
+
     do{
-        printf("introduza um num");scanf("%d",&nums[contador]);
-        //printf("%d",teste[contador]);
+        printf("Introduza um numero: ");scanf("%d",&nums[contador]);
         
         printf("Deseja colocar outro numero?(S/N)");scanf(" %c",&escolha);
         contador++;
@@ -23,8 +27,7 @@ void main(){
     contador=0;
     while(nums[contador]!='\0')
     {
-        printf("%d",nums[contador]);contador++;}
-      /*  //guardar o valor dos numeros em dois vetores
+        //guardar o valor dos numeros em dois vetores
         sprintf(p,"%d",nums[contador]);
         sprintf(_p,"%d",nums[contador]);
         //inverter um vetor
@@ -33,7 +36,6 @@ void main(){
         verifica=strcmp(p,_p);
         //caso sejam iguais a maior capicua e este valor
         if(verifica==0){
-            printf("%d",nums[contador]);
             capicuas[contadorCap]=nums[contador];
             contadorCap++;
         }else{
@@ -42,15 +44,33 @@ void main(){
         }
         contador++;
     }
-    while (capicuas[contadorCap]!='\0')
-    {
-        printf("\n\t%d",capicuas[contadorCap]);
-        contadorCap++;
+
+        printf("\n**************************");
+        printf("\n** Capicuas(%3d): \t**",contadorCap);
+        printf("\n**************************");
+    if(contadorCap>0){
+        contadorCap=0;
+        while (capicuas[contadorCap]!='\0')
+        {
+            printf("\n** \t%d\t\t**",capicuas[contadorCap]);
+            contadorCap++;
+        }
+        printf("\n**************************");
     }
     
-    
-     /*for(i=1;i<=prod+1;i++){
-       
-    }*/
+        
+        printf("\n**************************");
+        printf("\n** Nao Capicuas(%3d):   **",contadorNCap);
+        printf("\n**************************");
+    if(contadorNCap>0){
+        contadorNCap=0;
+        while (Ncapicuas[contadorNCap]!='\0')
+        {
+            printf("\n**\t%d\t\t**",Ncapicuas[contadorNCap]);
+            contadorNCap++;
+        }
+        printf("\n**************************");
+    }
 
 }
+      
