@@ -4,12 +4,8 @@
 
 void main(){
     int verifica,contador=0,contadorCap=0,contadorNCap=0;
-    int nums[500];
-    char escolha;
-    char p[50];
-    char _p[50];
-    int capicuas[500];
-    int Ncapicuas[500];
+    int nums[500],capicuas[500],Ncapicuas[500];
+    char escolha, p[50], _p[50];
 
     for(int i=0;i<500;i++){
         nums[i]=0;
