@@ -7,7 +7,7 @@ void main(){
     int i=0,num,Min=1,Max=100,escolha,resposta; 
     
     srand(time(0));
-    
+
     printf("**********************************");
     printf("\n** Menu:\t\t\t**");
     printf("\n**\t1-Iniciante[1:10]\t**");
@@ -38,15 +38,16 @@ void main(){
 
     do{
         printf("\nResposta: ");scanf("%d",&resposta);
-        if(resposta<num){
+        
+        if(resposta<num)
             printf("\nO numero gerado e maior");
-        }
-        if(resposta>num){
+        
+        if(resposta>num)
             printf("\nO numero gerado e menor");
-        }
-        if(resposta==num){
+        
+        if(resposta==num)
             printf("\nAcertou!");
-        }
+        
     }while(resposta!=num); 
     
     
