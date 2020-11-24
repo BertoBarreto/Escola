@@ -4,7 +4,7 @@
 #include <time.h> 
 
 void main(){
-    int i=0,num,Min=1,Max=100,escolha,resposta; 
+    int i=0,num,Min=1,Max=100,escolha,resposta,contador=1,tentativas=0; 
     
     srand(time(0));
 
@@ -20,12 +20,15 @@ void main(){
     {
         case 1:
                 Max=10;
+                tentativas=3;
             break;
         case 2:
                 Max=30;
+                tentativas=10;
             break;
         case 3:
                 Max=50;
+                tentativas=15;
             break;
         default: printf("\nEscolha nao existe");
             break;
@@ -34,11 +37,12 @@ void main(){
     //expressao geral para gerar numeros aleatórios entre dois máximos
     num = (rand() % (Min - Max + 1)) + Min;
 
-    printf("\nGerado numero entre %d e %d",Min,Max);
+    printf("\nGerado numero entre %d e %d com %d tentativas",Min,Max,tentativas);
 
     do{
+        printf("\nTentativas restantes: %d",tentativas-contador);
         printf("\nResposta: ");scanf("%d",&resposta);
-        
+
         if(resposta<num)
             printf("\nO numero gerado e maior");
         
@@ -48,7 +52,9 @@ void main(){
         if(resposta==num)
             printf("\nAcertou!");
         
-    }while(resposta!=num); 
+        contador++;
+
+    }while(resposta!=num && contador<=tentativas); 
     
     
 
