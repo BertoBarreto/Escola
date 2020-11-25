@@ -1,0 +1,43 @@
+/*********************************
+**    Nome: Conversor Temp      **
+**    Autor: Roberto Barreto    **
+**    Data: 21/11/2020          **
+**********************************/
+
+var:
+    count : inteiro
+    tempC,tempK,Mtempk,Mtempk,media,totalTempsk : real
+    escolha,temp[100],rel[500] : caracteres
+
+algoritmo:
+
+    Enquanto 1 fazer
+
+        ler(tempK)
+
+        tempC<-tempK-273
+
+        se tempK>=Mtempk
+            Mtempk=tempK
+        fimSe
+
+        se tempK<=Mtempk
+            mTempK=tempK
+        fimSe
+
+        escrever(tempK,tempC)
+
+        temp<-tempK,tempC
+
+        rel<-temp
+        totalTempsk<-totalTempsk+tempK
+
+        ler(escolha)
+
+    fimEnquanto
+
+    media<-totalTempsk/count
+
+    escrever(rel,Mtempk,mTempK,media)
+
+fimAlgoritmo

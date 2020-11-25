@@ -1,10 +1,15 @@
+/*********************************
+**    Nome: Conversor Temp      **
+**    Autor: Roberto Barreto    **
+**    Data: 21/11/2020          **
+**********************************/
 #include<stdio.h>
 #include<string.h>
 
 int main(int argc, char const *argv[])
 {
     int count=0;
-    float tempC,tempK,tempK_1=0,MtempK,mTempK,media,totalTempsK;
+    float tempC,tempK,MtempK,mTempK,media,totalTempsK;
     char escolha;
     char temp[100];
     char rel[500];
@@ -34,7 +39,6 @@ int main(int argc, char const *argv[])
         if(escolha=='Y'||escolha=='y')
             break;
 
-        tempK_1=tempK;
     }
     media=totalTempsK/count;
     printf("*****************************************************\n");
