@@ -1,0 +1,44 @@
+/*********************************
+**    Nome: Peso de pessoas     **
+**    Autor: Roberto Barreto    **
+**    Data: 21/11/2020          **
+**********************************/
+
+var:
+
+    gen, escolha:caracter
+    idade,gasto,gastoTotal,count,countF,countM,countFEx:inteiro
+    media:real
+
+algoritmo:
+
+    enquanto 1 fazer
+
+        ler(gen,idade,gasto)
+
+        se gatos <0 e idade <0
+            escrever(erro)
+        fimSe
+
+        se gen=='F'
+            countF<-countF+1
+            se idade > 40 e gasto > 200
+                countFEx<-countFEx+1
+            fimSe
+        senao se gen=='M'
+            countMz-countM+1
+        senao   
+            escrever(erro)
+
+        gastoTotal<-gastoTotal+gasto
+
+        count<-count+1
+
+        ler(escolha)
+
+    fimEnquanto
+
+    escrever(countF,countFEx,countM,gastoTotal/count)
+
+
+fimAlgoritmo
