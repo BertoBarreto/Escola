@@ -1,0 +1,26 @@
+/*********************************
+**    Nome: Fatorial            **
+**    Autor: Roberto Barreto    **
+**    Data: 21/11/2020          **
+**********************************/
+
+var:
+
+    num,resultado,i:inteiros
+
+Algoritmo:
+
+    ler(num)
+
+    for(i=1;i<=num;i++)
+        resultado<-resultado*i
+        se i==num
+            escrever(" i")
+        senao
+            escrever(" i x")
+        fimSe
+    fimFor
+
+    escrever(resultado)
+
+fimAlgoritmo
