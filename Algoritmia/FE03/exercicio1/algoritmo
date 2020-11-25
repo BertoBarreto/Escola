@@ -1,0 +1,33 @@
+/*********************************
+**    Nome: Peso de pessoas     **
+**    Autor: Roberto Barreto    **
+**    Data: 21/11/2020          **
+**********************************/
+Var:
+
+    peso,contador,contadorP : inteiros
+    decisao : caracter
+    media : real
+
+Algoritmo:
+
+    contador<-0;
+    contadorP<-0;
+    media<-0;
+
+    enquanto 1 fazer
+        ler(peso)
+
+        se peso < 0
+            escrever erro
+        senao se peso >= 50 e peso <= 80 
+            contadorP<-contadorP+1
+        fimSe
+
+        ler(escolhar)
+    fimEnquanto
+
+    media<-contadorP/contador
+    escrever(media)
+
+fimAlgoritmo
