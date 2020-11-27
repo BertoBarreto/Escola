@@ -1,0 +1,72 @@
+/*********************************
+**    Nome: Desenhar Quadrados  **
+**    Autor: Roberto Barreto    **
+**    Data: 21/11/2020          **
+**********************************/
+
+var:
+
+    comprimento, largura, escolha, preencher:inteiro
+    caracter:caracter
+
+Algoritmo:
+    ler(escolha)
+    ler(preencher)
+
+    escolher(escolha)
+        caso 1:
+            ler(largura)
+            ler(caracter)
+
+            se(toupper(preencher)=='N')
+                for(i<-1;i<=largura;i++)
+                    se i==1 ou i==largura
+                        for(a<-1;a<=largura;a++)   
+                            escrever(caracter);
+                        fimFor
+                    senao
+                        for(a<-1;a<=largura;a++)
+                            if a==1 ou a==largura
+                                escrever(caracter);
+                            else
+                                escrever("espaço");
+                            fimSe
+                        fimFor
+                    fimSe
+                fimFor
+            senao
+                for(i<-1;i<=largura;i++)   
+                    for(a<-1;a<=largura;a++)
+                        escrever(caracter);
+                    fimFor
+                fimFor
+            fimSe
+        caso 2:
+            ler(comprimento,largura)
+            ler(caracter)
+
+            se(toupper(preencher)=='N')
+                for(i<-1;i<=largura;i++)
+                    se i==1 ou i==largura
+                        for(a<-1;a<=comprimento;a++)   
+                            escrever(caracter);
+                        fimFor
+                    senao
+                        for(a<-1;a<=comprimento;a++)
+                            if a==1 ou a==comprimento
+                                escrever(caracter);
+                            else
+                                escrever("espaço");
+                            fimSe
+                        fimFor
+                    fimSe
+                fimFor
+            senao
+                for(i<-1;i<=comprimento;i++)   
+                    for(a<-1;a<=comprimento;a++)
+                        escrever(caracter);
+                    fimFor
+                fimFor
+            fimSe
+    fimEscolher
+fimAlgoritmo

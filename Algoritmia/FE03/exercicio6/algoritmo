@@ -1,0 +1,19 @@
+/*********************************
+**    Nome: Inverter            **
+**    Autor: Roberto Barreto    **
+**    Data: 21/11/2020          **
+**********************************/
+
+var:
+
+    num[50]:caracter
+
+Algoritmo
+
+    ler(num)
+
+    strrev(num)
+
+    escrever(num)
+
+fimAlgoritmo

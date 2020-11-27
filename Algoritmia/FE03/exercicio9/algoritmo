@@ -1,0 +1,25 @@
+/*********************************
+**    Nome: Desenhar Triangulo  **
+**    Autor: Roberto Barreto    **
+**    Data: 21/11/2020          **
+**********************************/
+
+var:
+
+    altura:inteiro
+    carater:caracter
+
+Algoritmo:
+
+    ler(altura)
+    ler(carater)
+
+    for(i<-1;i<=altura;i++){
+
+        for(a<-1;a<=i;a++){
+            escrever(carater);
+        }
+
+    }
+
+fimAlgoritmo

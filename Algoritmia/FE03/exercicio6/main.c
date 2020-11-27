@@ -1,3 +1,9 @@
+/*********************************
+**    Nome: Inverter            **
+**    Autor: Roberto Barreto    **
+**    Data: 21/11/2020          **
+**********************************/
+
 #include<stdio.h>
 #include<string.h>
 

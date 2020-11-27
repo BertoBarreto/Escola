@@ -10,6 +10,8 @@ var:
 
 Algoritmo:
 
+    resultado<-1
+
     ler(num)
 
     for(i=1;i<=num;i++)

@@ -3,3 +3,57 @@
 **    Autor: Roberto Barreto    **
 **    Data: 21/11/2020          **
 **********************************/
+
+var:
+
+    verifica,contador,contadorCap,contadorNCap,nums[500],capicuas[500],Ncapicuas[500]:inteiros
+    escolha, p[50], _p[50]:caracter
+
+Algoritmo:
+
+    for(i<-0;i<500;i++)
+        nums[i]<-0
+        capicuas[i]<-0
+        Ncapicuas[i]<-0
+    fimFor
+
+    fazer
+        ler(nums)
+        ler(escolha)
+        contador<-contador+1
+    enquanto(escolha == S)
+
+    contador<-0
+
+    enquanto(nums[contador]!='\0')
+        p<-nums[contador]
+        _p<-nums[contador]
+
+        strrev(_p)
+
+        verifica<-strcmp(p,_p)
+            capicuas[contadorCap]<-nums[contador]
+            contadorCap<-contadorCap+1
+        se(verifica==0)
+            capicuas[contadorNCap]<-nums[contador]
+            contadorNCap<-contadorNCap+1
+        senao
+
+        fimSe
+
+        contador<-contador+1
+    fimEnquanto
+    
+        contadorCap<-0
+        enquanto(capicuas[contadorCap]!='\0')
+            escrever(capicuas)
+            contadorCap<-contadorCap+1
+        fimEnquanto
+
+        contadorNCap<-0
+        enquanto(Ncapicuas[contadorNCap]!='\0')
+            escrever(capicuas)
+            contadorNCap<-contadorNCap+1
+        fimEnquanto
+
+fimAlgoritmo

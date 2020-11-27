@@ -1,0 +1,59 @@
+/*********************************
+**    Nome: Jogo rand           **
+**    Autor: Roberto Barreto    **
+**    Data: 21/11/2020          **
+**********************************/
+
+var:
+
+    i,num,Min,Max,escolha,resposta,contador,tentativas : inteiro 
+    
+
+Algoritmo:
+
+    Min<-1
+    Max<-100
+    contador<-1
+
+    srand(time(0))
+
+    ler(escolha)
+
+    escolher(escolha)
+        caso 1 :
+            Max<-10
+            tentativas<-3
+
+        caso 2 :
+            Max<-30
+            tentativas<-10
+
+        caso 3 :
+            Max<-50
+            tentativas<-15
+    fimEscolher
+
+    num<-(rand() % (Min - Max + 1)) + Min
+
+    escrever(Min,Max,tentativas)
+
+    fazer
+        escrever(tentativas-contador)
+        ler(resposta)
+
+        se(resposta<num)
+            escrever(maior)
+        fimSe
+
+        se(resposta>num)
+            escrever(menor)
+        fimSe
+
+        se(resposta==mun)
+            escrever(acertou)
+        fimSe
+
+        contador<-contador+1
+    enquanto(resposta!=num e contador<=tentativas)
+
+fimAlgoritmo
