@@ -1,3 +1,9 @@
+/*********************************
+**    Nome: Desenhar Triangulo  **
+**    Autor: Roberto Barreto    **
+**    Data: 21/11/2020          **
+**********************************/
+
 #include<stdio.h>
 
 void main(){
