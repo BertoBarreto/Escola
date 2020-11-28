@@ -1,7 +1,7 @@
 /*********************************
-**    Nome: Numero 33           **
+**    Nome: Soma                **
 **    Autor: Roberto Barreto    **
-**    Data: 27/10/2020          **
+**    Data: 28/11/2020          **
 **********************************/
 
 #include<stdio.h>
@@ -18,6 +18,5 @@ void main(){
     printf("Introduza dois numeros: ");scanf("%d %d",&n1,&n2);
 
     printf("%d + %d = %d",n1,n2,soma(n1,n2));
-
 
 }
