@@ -6,9 +6,9 @@
 
 #include<stdio.h>
 
-int media(int n1,int n2,int n3);
+float media(float n1,float n2,float n3);
 
-int media(int n1,int n2,int  n3){
+float media(float n1,float n2,float n3){
     return (n1+n2+n3)/3;
 }
 
@@ -18,5 +18,5 @@ void main(){
 
     printf("Introduza os 3 numeros: ");scanf("%d %d %d",&n1,&n2,&n3);
 
-    printf("A media de %d, %d, %d e: %d",n1,n2,n3,media(n1,n2,n3));
+    printf("A media de %d, %d, %d e: %.2f",n1,n2,n3,media((float)n1,(float)n2,(float)n3));
 }
