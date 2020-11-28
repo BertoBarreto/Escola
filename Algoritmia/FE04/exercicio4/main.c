@@ -1,3 +1,9 @@
+/*********************************
+**    Nome: imprimeNumeros      **
+**    Autor: Roberto Barreto    **
+**    Data: 28/11/2020          **
+**********************************/
+
 #include<stdio.h>
 
 int imprimeNumeros(int numero);
