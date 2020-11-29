@@ -9,7 +9,7 @@
 int main(int argc, char const *argv[])
 {
     int count=0;
-    float tempC,tempK,MtempK,mTempK,media,totalTempsK;
+    float tempC,tempK,MtempK=0,mTempK=0,media,totalTempsK;
     char escolha;
     char temp[100];
     char rel[500];
@@ -21,7 +21,7 @@ int main(int argc, char const *argv[])
         if(tempK>=MtempK)
             MtempK=tempK;
         //verificar se a temperatura é menor
-        if(tempK<=mTempK)
+        if(tempK<=mTempK || count==0)
             mTempK=tempK;
         
         //mostrar a temperatura escrita e o resultado
