@@ -25,11 +25,12 @@ void main(){
     char escolha;
 
     do{
-        printf("Idade?");scanf("%d",&idade);
+        printf("Idade?");scanf("%d",&idade);//14//15//18
         if(contador==0)
-            total=idade;
+            total=idade;//total=14
         else
-            total=soma(idade,total);
+            total=soma(idade,total);//total=soma(15,14)//total=(18,29)
+            
         printf("Deseja sair?(S/N)");scanf(" %c",&escolha);
         contador++;
     }while(toupper(escolha)=='N');

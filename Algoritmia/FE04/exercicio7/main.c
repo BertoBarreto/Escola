@@ -6,7 +6,7 @@ void verificaPrimo(int numero){
     int primo=1;
     //todos os numeros sao divisiveis por 1 e por ele próprio logo temos de testar
     //se num é divisivel por qualquer numero entre 2 e o num-1
-    for (int a = 2; a <= numero-1; a++){ 
+    for (int a = 2; a < numero; a++){ 
     //se o resto for 0, ou seja existe um numero divisor de num no intervalo entre 2 e num-1
         if (numero % a == 0) {
             primo=0;
