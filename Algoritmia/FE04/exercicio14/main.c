@@ -1,26 +1,27 @@
-#include<stdio.h>
-#include<string.h>
-#include<stdlib.h>
-#include<ctype.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <ctype.h>
 
-int inverter(int num){
+int inverter(int num)
+{
 
     char _n[50];
-    
-    sprintf(_n,"%d",num);
+
+    sprintf(_n, "%d", num);
 
     strrev(_n);
 
     return atoi(_n);
 }
 
-
-void main(){
+void main()
+{
 
     int num;
 
-    printf("Introduza um numero: ");scanf("%d",&num);
+    printf("Introduza um numero: ");
+    scanf("%d", &num);
 
-    printf("Invertido: %d",inverter(num));
-
+    printf("Invertido: %d", inverter(num));
 }
