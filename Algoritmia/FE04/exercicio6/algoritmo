@@ -1,0 +1,28 @@
+/*********************************
+**    Nome: imprimeNumeros      **
+**    Autor: Roberto Barreto    **
+**    Data: 28/11/2020          **
+**********************************/
+
+Função verificaPar(numero : inteiro) : void
+
+    se((numero%2)==0)
+        escrever(Numero par)
+    senão
+        escrever("Numero impar)
+    fimSe
+
+fimFunção
+
+var:
+
+    num : inteiro
+    
+Algoritmo:
+
+    fazer
+        ler(num)
+        verificaPar
+    equanto(num>=0)
+
+fimAlgorimto
