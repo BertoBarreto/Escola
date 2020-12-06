@@ -1,5 +1,5 @@
 /*********************************
-**    Nome: verificaPrimo       **
+**    Nome: calculaSomatorio       **
 **    Autor: Roberto Barreto    **
 **    Data: 28/11/2020          **
 **********************************/
