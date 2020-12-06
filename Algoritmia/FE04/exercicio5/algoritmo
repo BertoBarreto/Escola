@@ -1,0 +1,88 @@
+/*********************************
+**    Nome: imprimeNumeros      **
+**    Autor: Roberto Barreto    **
+**    Data: 28/11/2020          **
+**********************************/
+
+Função kelvinToCelcius(temp : inteiro) : real
+
+    retorna temp - 273;
+fimFunção
+
+Função celsiusToKelvin(temp : inteiro) : real
+
+    retorna temp + 273;
+
+fimFunção
+
+Algoritmo:
+
+    escolhaM, count = 0 : inteiro
+    temp, tempC, tempK, MtempK, mTempK, MtempC, mTempC, mediaK, mediaC, totalTempsK, totalTempsC : real
+    escolha : caracter
+    temperaturas[100] : caracter
+    rel[500] : caracter
+
+    fazer
+    {
+        ler(escolhaM)
+
+        ler(temp);
+
+        escolher (escolhaM)
+        {
+        caso 1:
+            tempC <- kelvinToCelcius(temp);
+            
+            se (temp >= MtempK)
+                MtempK <- temp
+            fimSe
+
+            se (temp <= mTempK || count == 0)
+                mTempK <- temp
+            fimSe
+            
+            escrever(temp, tempC)
+
+            temperaturas <-(temp, tempC)
+            
+            strcat(rel, temperaturas)
+            count<-count+1
+
+            totalTempsK <- totalTempsK + temp
+
+            quebra
+        caso 2:
+            tempK <- celsiusToKelvin(temp)
+            
+            se (temp >= MtempC)
+                MtempC <- temp
+            fimSe
+
+            se (temp <= mTempC || count == 0)
+                mTempC <- temp
+            fimSe
+
+           escrever(temp, tempK)
+
+            temperaturas<-(temp, tempK)
+            
+            strcat(rel, temperaturas)
+            count<-count+1
+
+            totalTempsC <- totalTempsC + temp
+            quebra
+        defeito:
+            escrever(Erro)
+            quebra
+        }
+
+        ler(escolha);
+        
+    }equanto(escolha=='N')
+    mediaK <- totalTempsK / count;
+    mediaC <- totalTempsC / count;
+
+    escrever(rel,MtempK,mTempK,mediaK,MtempC,mTempC,mediaC)
+
+fimAlgoritmo
