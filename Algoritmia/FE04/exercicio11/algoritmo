@@ -1,0 +1,25 @@
+/*********************************
+**    Nome: calculaFatorial     **
+**    Autor: Roberto Barreto    **
+**    Data: 28/11/2020          **
+**********************************/
+
+Função calculaFatorial(n : inteiro) : inteiro
+
+    se (n == 0)
+        retorna 1
+    senao
+        retorna (n * calculaFatorial(n - 1))
+    fimSe
+
+fimFunção
+
+Var:
+    n : inteiro
+
+Algoritmo: 
+
+    ler(n)
+    escrever(calculaFatorial(n))
+    
+fimAlgoritmo
