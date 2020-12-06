@@ -1,0 +1,18 @@
+/*********************************
+**    Nome: Soma                **
+**    Autor: Roberto Barreto    **
+**    Data: 28/11/2020          **
+**********************************/
+
+Função soma(n1 : inteiro, n2 : inteiro){
+    retorna n1+n2;
+fimFunção
+
+var: 
+    n1,n2 : inteiro
+
+Algoritmo:
+
+
+
+fimAlgoritmo
