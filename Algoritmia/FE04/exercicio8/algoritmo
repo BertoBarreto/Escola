@@ -4,7 +4,7 @@
 **    Data: 28/11/2020          **
 **********************************/
 
-Função verificaPrimo(numero : inteiro) : void
+Função verificaPrimo(numero : inteiro) : inteiro
     var:
         primo = 1 : inteiro
 
@@ -13,26 +13,35 @@ Função verificaPrimo(numero : inteiro) : void
         se (numero % a == 0)
         
             primo <- 0
-            escrever(O numero nao e primo)
+
             quebrar
         fimSe
 
     fimFor
     
-    se (primo == 1)
-    
-        escrever(O numero e primo);
+
+    retorna primo
+
+fimFunção
+
+Função mostra(numero : inteiro, primo : inteiro) : void
+
+    se (primo == 0)
+        printf(O numero nao e primo", numero)
+    senao
+        escrever(O numero e primo)
     fimSe
 
 fimFunção
 
-Var:
-    num : inteiro
+var:
+    num1,num2,primo : inteiro
 
 Algoritmo:
 
-    ler(num)
+    ler(num1,num2)
 
-    verificaPrimo(num)
-
+    for (int i = num1; i <= num2; i++)
+        mostra(i, verificaPrimo(i))
+        
 fimAlgoritmo
