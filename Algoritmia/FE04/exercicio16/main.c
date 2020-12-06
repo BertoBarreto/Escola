@@ -55,7 +55,8 @@ int descifra(int cifra)
         //o ultimo digito de qualquer numero é obetido pelo resto do mesmo por 10
         digCifra = cifra % 10;
 
-        /*  no máximo vamos obeter digito 9 e como 0+8 e 1+8 dá um numero abaixo de 10 e como para qualquer n abaixo de 10 -> n%10=n
+        /*  
+            no máximo vamos obeter digito 9 e como 0+8 e 1+8 dá um numero abaixo de 10 e como para qualquer n abaixo de 10 -> n%10=n
             entao como 8+1=9 e 8+0=8 os numeros 0 e 1 são obtidos ao retirar 8 a qualquer numero acima de 7
             já o resto obtem-se adicionando 2 ao numero
         */
