@@ -6,18 +6,19 @@
 
 Função kelvinToCelcius(temp : inteiro) : real
 
-    retorna temp - 273;
+    retorna temp - 273
+
 fimFunção
 
 Função celsiusToKelvin(temp : inteiro) : real
 
-    retorna temp + 273;
+    retorna temp + 273
 
 fimFunção
 
 Algoritmo:
 
-    escolhaM, count = 0 : inteiro
+    escolhaM, count : inteiro
     temp, tempC, tempK, MtempK, mTempK, MtempC, mTempC, mediaK, mediaC, totalTempsK, totalTempsC : real
     escolha : caracter
     temperaturas[100] : caracter
@@ -27,7 +28,7 @@ Algoritmo:
     {
         ler(escolhaM)
 
-        ler(temp);
+        ler(temp)
 
         escolher (escolhaM)
         {
@@ -80,8 +81,8 @@ Algoritmo:
         ler(escolha);
         
     }equanto(escolha=='N')
-    mediaK <- totalTempsK / count;
-    mediaC <- totalTempsC / count;
+    mediaK <- totalTempsK / count
+    mediaC <- totalTempsC / count
 
     escrever(rel,MtempK,mTempK,mediaK,MtempC,mTempC,mediaC)
 

@@ -14,7 +14,7 @@ Função capicua(num : inteiro) : void
     n <- num
 
     strrev(_n);
-    verifica <- strcmp(n, _n);
+    verifica <- strcmp(n, _n)
 
     se (verifica == 0)
         escrever(O numero e capicua)

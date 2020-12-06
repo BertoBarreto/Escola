@@ -9,7 +9,7 @@ Função imprimeNumeros(numero : inteiro) : void
     contador <- 1 : inteiro
     enquanto(contador<=numero){
         escrever(contador)
-        contador<-contador+1;
+        contador<-contador+1
     fimEnquanto
 
 fimFunção

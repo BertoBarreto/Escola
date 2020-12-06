@@ -11,9 +11,9 @@ Função inverter(num : inteiro) : inteiro
 
     _n <- num
 
-    strrev(_n);
+    strrev(_n)
 
-    retorna atoi(_n);
+    retorna atoi(_n)
 }
 
 Var:
