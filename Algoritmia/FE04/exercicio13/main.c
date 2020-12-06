@@ -1,3 +1,8 @@
+/*********************************
+**    Nome: potencia            **
+**    Autor: Roberto Barreto    **
+**    Data: 28/11/2020          **
+**********************************/
 #include <stdio.h>
 
 int potencia(int num, int expoente);

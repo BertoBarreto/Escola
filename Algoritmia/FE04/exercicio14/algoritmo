@@ -1,0 +1,27 @@
+/*********************************
+**    Nome: inverter            **
+**    Autor: Roberto Barreto    **
+**    Data: 28/11/2020          **
+**********************************/
+
+Função inverter(num : inteiro) : inteiro
+{
+
+    _n[50] : caracter
+
+    _n <- num
+
+    strrev(_n);
+
+    retorna atoi(_n);
+}
+
+Var:
+    num : inteiro
+
+Algoritmo:
+
+    ler(num)
+    escrever(inverter(num))
+
+fimAlgoritmo
