@@ -1,5 +1,5 @@
 /*********************************
-**    Nome: Cifra/decifra		**
+**    Nome: Cifra/Descifra		**
 **    Autor: Roberto Barreto	**
 **    Data: 06/12/2020			**
 **********************************/
@@ -9,6 +9,7 @@
 #include <stdlib.h>
 
 int cifra(int dig);
+int descifra(int cifra);
 
 int cifra(int dig)
 {
