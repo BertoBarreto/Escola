@@ -1,0 +1,38 @@
+/*********************************
+**    Nome: verificaPrimo       **
+**    Autor: Roberto Barreto    **
+**    Data: 28/11/2020          **
+**********************************/
+
+Função verificaPrimo(int numero) : void
+    var:
+        primo = 1 : inteiro
+
+    for (int a = 2; a < numero; a++)
+    
+        se (numero % a == 0)
+        
+            primo <- 0
+            escrever(O numero nao e primo)
+            quebrar
+        fimSe
+
+    fimFor
+    
+    se (primo == 1)
+    
+        escrever(O numero e primo);
+    fimSe
+
+fimFunção
+
+Var:
+    num : inteiro
+
+Algoritmo:
+
+    ler(num)
+
+    verificaPrimo(num)
+
+fimAlgoritmo
