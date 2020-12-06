@@ -13,6 +13,8 @@ var:
 
 Algoritmo:
 
+    ler(n1,n2)
 
+    escrever(soma(n1,n2))
 
 fimAlgoritmo
