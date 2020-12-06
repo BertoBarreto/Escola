@@ -1,0 +1,89 @@
+/*********************************
+**    Nome: Cifra/Descifra		**
+**    Autor: Roberto Barreto	**
+**    Data: 06/12/2020			**
+**********************************/
+
+Função cifra(dig : inteiro) : inteiro
+    str[1], cifraFinal[3] : caracter
+    num, cifraNum, numDig : inteiro
+
+    str <- dig
+
+    strrev(str)
+
+    
+    dig <- atoi(str)
+    
+    for (int i = 0; i < 4; i++)
+        
+        numDig <- dig % 10
+
+        
+        cifraNum <- (numDig + 8) % 10
+
+        str <- cifraNum
+
+        cifraFinal[i] <- str[0]
+
+        dig <- dig / 10
+    fimFor
+
+    retorna atoi(cifraFinal)
+fimFunção
+
+Função descifra(cifra : inteiro) : inteiro
+
+    digCifra, descifraDig : inteiro
+    str[1], descifraFinal[3] : caracter
+    
+    for (int i = 0; i < 4; i++)
+
+        digCifra <- cifra % 10
+
+        se (digCifra <= 7)
+            descifraDig <- digCifra + 2
+        senao
+            descifraDig <- digCifra - 8
+        fimSe
+
+        cifra <- cifra / 10
+
+        str <- descifraDig
+
+        descifraFinal[i] <- str[0]
+    fimFor
+
+    strrev(descifraFinal)
+    retorna atoi(descifraFinal)
+fimFunção
+
+Função menu() : void
+
+    escolha, n : inteiro
+    ler(escolha)
+
+    escolher (escolha)
+    {
+    caso 1:
+        ler(n)
+        escrever(cifra(n))
+        quebra
+    caso 2:
+        ler(n)
+        escrever(descifra(n))
+        quebra
+
+    default:
+        escrever(Erro)
+        quebra
+    }
+
+    menu()
+fimFunção
+
+Algoritmo:
+
+    Menu()
+
+fimAlgoritmo

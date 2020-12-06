@@ -1,3 +1,8 @@
+/*********************************
+**    Nome: capicua             **
+**    Autor: Roberto Barreto    **
+**    Data: 28/11/2020          **
+**********************************/
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
