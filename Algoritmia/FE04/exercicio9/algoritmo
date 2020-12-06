@@ -1,0 +1,28 @@
+/*********************************
+**    Nome: verificaPrimo       **
+**    Autor: Roberto Barreto    **
+**    Data: 28/11/2020          **
+**********************************/
+
+Função calculaSomatorio(n : inteiro) : inteiro
+    
+    var:
+        resultado : inteiro
+
+    for (int i = 1; i <= n; i++)
+        resultado <- resultado + i
+    fimFor
+
+    retorna resultado
+fimFunção
+
+var:
+    n : inteiro
+
+Algoritmo: 
+
+    ler(n)
+
+    escrever(calculaSomatorio(n))
+    
+fimAlgoritmo
