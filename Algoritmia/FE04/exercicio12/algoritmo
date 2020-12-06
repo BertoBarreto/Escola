@@ -1,0 +1,26 @@
+/*********************************
+**    Nome: potencia            **
+**    Autor: Roberto Barreto    **
+**    Data: 28/11/2020          **
+**********************************/
+
+Função potencia(int num, int expoente) : inteiro
+    Var: 
+        resultado <- 1 : inteiro
+
+    for (int i = 1; i <= expoente; i++)
+        resultado <- resultado * num
+    fimFor
+    retorna resultado
+
+fimFunção
+
+Var:
+    num,exp : inteiro
+
+Algoritmo:
+
+    ler(num,exp)
+    escrever(potencia(num,exp))
+
+fimAlgoritmo
