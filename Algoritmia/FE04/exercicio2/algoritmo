@@ -1,0 +1,22 @@
+/*********************************
+**    Nome: Media               **
+**    Autor: Roberto Barreto    **
+**    Data: 28/11/2020          **
+**********************************/
+
+Função media(n1 : real,n2 : real,n3 : real)
+
+    retorna (n1+n2+n3)/3
+
+fimFunção
+
+var: 
+    n1,n2,n3 : inteiro
+
+Algoritmo:
+
+    ler(n1,n2,n3)
+
+    escrever(media(n1,n2,n3))
+
+fimAlgoritmo
