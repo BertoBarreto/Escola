@@ -24,6 +24,7 @@ Função verificaPrimo(numero : inteiro) : inteiro
 
 fimFunção
 
+
 Função mostra(numero : inteiro, primo : inteiro) : void
 
     se (primo == 0)
@@ -43,5 +44,5 @@ Algoritmo:
 
     for (int i = num1; i <= num2; i++)
         mostra(i, verificaPrimo(i))
-        
+
 fimAlgoritmo
