@@ -1,0 +1,25 @@
+/*********************************
+**    Nome: imprimeNumeros      **
+**    Autor: Roberto Barreto    **
+**    Data: 28/11/2020          **
+**********************************/
+
+Função imprimeNumeros(numero : inteiro) : void
+
+    contador <- 1 : inteiro
+    enquanto(contador<=numero){
+        escrever(contador)
+        contador<-contador+1;
+    fimEnquanto
+
+fimFunção
+
+Var: 
+    num : inteiro
+
+Algoritmo:
+
+    ler(num)
+    imprimeNumeros(num)
+
+fimAlgoritmo
