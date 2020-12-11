@@ -6,15 +6,22 @@
 
 #include <stdio.h>
 
-void crescPar(int num);
-void crescPar(int num)
+void crescPar(int num, int max);
+void crescPar(int num, int max)
 {
-    for (int i = 0; i <= num; i++)
+    if (num % 2 == 0)
     {
-        if (i % 2 == 0)
+        if (num == max)
+            printf(" %d", max);
+        else
         {
-            printf(" %d", i);
+            printf(" %d", num);
+            crescPar(num + 1, max);
         }
+    }
+    else
+    {
+        crescPar(num + 1, max);
     }
 }
 
@@ -24,7 +31,7 @@ void main()
     printf("Numero par: ");
     scanf("%d", &num);
     if (num % 2 == 0)
-        crescPar(num);
+        crescPar(0, num);
     else
         printf("Erro");
 }
