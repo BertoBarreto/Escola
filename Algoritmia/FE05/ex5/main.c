@@ -21,7 +21,10 @@ void crescPar(int num)
 void main()
 {
     int num;
-    printf("Numero: ");
+    printf("Numero par: ");
     scanf("%d", &num);
-    crescPar(num);
+    if (num % 2 == 0)
+        crescPar(num);
+    else
+        printf("Erro");
 }
