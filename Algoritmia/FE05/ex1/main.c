@@ -1,7 +1,7 @@
 /*********************************
-**    Nome: Exemplo nome		**
+**    Nome: Fatorial Iterativo	**
 **    Autor: Roberto Barreto	**
-**    Data: 00/00/2020			**
+**    Data: 11/12/2020			**
 **********************************/
 
 #include <stdio.h>
