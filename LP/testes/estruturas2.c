@@ -9,7 +9,7 @@ typedef struct
 {
     int Dia, Mes, Ano;
 } DATA;
-typedef struct pessoa
+typedef struct
 {
     char Nome[100];
     int Idade;
