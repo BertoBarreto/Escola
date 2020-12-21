@@ -1,19 +1,18 @@
 /*********************************
 **    Nome: Exemplo nome		**
 **    Autor: Roberto Barreto	**
-**    Data: 11/12/2020			**
+**    Data: 15/12/2020			**
 **********************************/
 
 #include <stdio.h>
 
-int somatorio(int min, int max);
-int somatorio(int min, int max)
+int somatorio(int num, int max);
+int somatorio(int num, int max)
 {
-    int soma = 0;
-    for (int i = min; i <= max; i++)
-        soma += i;
-
-    return soma;
+    if (num > max)
+        return 0;
+    else
+        return num + somatorio(num + 1, max);
 }
 
 void main()
