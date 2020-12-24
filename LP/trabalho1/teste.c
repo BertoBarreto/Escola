@@ -1,25 +1,41 @@
-/*********************************
-**    Nome: Exemplo nome		**
-**    Autor: Roberto Barreto	**
-**    Data: 21/12/2020			**
-**********************************/
+/*********************************************************************
+**    Nome: Exemplo nome											**
+**    Autor: Roberto Barreto - Henrique Cartucho - Vincent Rebena	**
+**    Data: 23/12/2020												**
+*********************************************************************/
 
 #include <stdio.h>
 #include <string.h>
-
-int main()
+typedef struct teste
 {
-    char str[] = "strtok needs to be called several times to split a string";
-    //int init_size = strlen(str);
-    char delim[] = " ";
 
-    char *ptr = strtok(str, delim);
+    char vetor[3];
+    char vetor1[3];
 
-    while (ptr != NULL)
+} TESTE;
+void loadTempos(TESTE *teste)
+{
+    char teste_[3], teste_1[3];
+    int i = 0;
+    strcpy(teste_, "E1");
+    strcpy(teste_1, "E2");
+    while (i <= 8)
     {
-        printf("'%s'\n", ptr);
-        ptr = strtok(NULL, delim);
+        strcpy(teste[i].vetor, teste_);
+        strcpy(teste[i].vetor1, teste_1);
+        printf("vetor: %s", teste[i].vetor);
+        printf("vetor1: %s", teste[i].vetor1);
+        i++;
     }
-
-    return 0;
+}
+void main()
+{
+    int i = 0;
+    TESTE teste[8];
+    loadTempos(teste);
+    while (i <= 8)
+    {
+        printf("vetor: %s", teste[i].vetor);
+        printf("vetor1: %s", teste[i].vetor1);
+    }
 }
