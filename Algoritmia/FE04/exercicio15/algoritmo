@@ -5,10 +5,10 @@
 **********************************/
 
 Função capicua(num : inteiro) : void
-
-    n[50] : caracter
-    _n[50] : caracter
-    verifica : inteiro
+    Var:
+        n[50] : caracter
+        _n[50] : caracter
+        verifica : inteiro
 
     _n <- num
     n <- num
