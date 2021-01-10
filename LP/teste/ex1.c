@@ -8,12 +8,13 @@
 
 void triangulo()
 {
+    int base = 3 + 2; //n+2
     for (int i = 1; i <= 3; i++)
     {
 
-        for (int a = 1; a <= 5; a + 2)
+        for (int a = 1; a <= base; a + 2)
         {
-            if (a % 2 != 0)
+            if (i == 1)
                 printf("*");
             else
                 printf(" ");
