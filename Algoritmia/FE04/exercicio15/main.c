@@ -21,7 +21,7 @@ void capicua(int num)
     sprintf(n, "%d", num);
 
     strrev(_n);
-    verifica = strcmp(n, _n);
+    verifica = stricmp(n, _n);
 
     if (verifica == 0)
     {

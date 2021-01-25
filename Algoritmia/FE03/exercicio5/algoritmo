@@ -31,7 +31,7 @@ Algoritmo:
 
         strrev(_p)
 
-        verifica<-strcmp(p,_p)
+        verifica<-stricmp(p,_p)
             capicuas[contadorCap]<-nums[contador]
             contadorCap<-contadorCap+1
         se(verifica==0)
